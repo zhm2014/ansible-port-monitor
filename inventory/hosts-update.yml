@@ -1,0 +1,35 @@
+source1:
+  hosts:
+    host1:
+      ansible_host: ip-source1-host1
+      host_name: source1-host1
+    host2:
+      ansible_host: ip-source1-host2
+      host_name: source1-host2
+      
+source2:
+  hosts:
+    host1:
+      ansible_host: ip-source2-host1
+      host_name: source2-host1
+    host2:
+      ansible_host: ip-source2-host2
+      host_name: source2-host2
+      
+target1:
+  hosts:
+    host1:
+      ansible_host: ip-target1-host1
+      host_name: target1-host1
+    host2:
+      ansible_host: ip-target1-host2
+      host_name: target1-host2     
+      
+target2:
+  hosts:
+    host1:
+      ansible_host: ip-target2-host1
+      host_name: target2-host1
+    host2:
+      ansible_host: ip-target2-host2
+      host_name: target2-host2
