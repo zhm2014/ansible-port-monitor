@@ -1,0 +1,4 @@
+---
+server_to_test:
+  - {name: 'target1', port: 'port3'}#target1
+  - {name: 'target1', port: 'port4'}#target1
