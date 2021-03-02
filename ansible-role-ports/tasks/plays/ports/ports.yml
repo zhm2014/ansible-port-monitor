@@ -1,0 +1,7 @@
+---
+- name: check ports
+  hosts: "{{ host }}"
+  become: yes
+  become_user: root
+  roles:
+    - ansible-role-ports
