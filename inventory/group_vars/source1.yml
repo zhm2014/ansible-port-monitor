@@ -1,0 +1,7 @@
+---
+server_to_test:
+  - {name: 'target1', port: 'port1'}#target1
+  - {name: 'target1', port: 'port2'}#target1
+  
+  - {name: 'target2', port: 'port1'}#target2
+  - {name: 'target2', port: 'port2'}#target2
